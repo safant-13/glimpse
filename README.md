@@ -2,7 +2,11 @@
 
 > Glimpse into your IDEAS - Visualize code concepts instantly
 
-Glimpse is an interactive web application that allows you to quickly transform your ideas into visual code prototypes. Simply describe what you want to create, and Glimpse will generate and render the code for you in real-time.
+Glimpse is an interactive web application that allows you to transform your ideas into visual code prototypes quickly. Simply describe what you want to create, and Glimpse will generate and render the code for you in real-time.
+
+Below is an Example of the solution:
+https://github.com/user-attachments/assets/3e2053e5-d46d-4ba7-903c-babd735696ef
+
 
 ## 🌟 Features
 
@@ -47,30 +51,7 @@ You can start editing the page by modifying `app/page.tsx`. The page auto-update
 
 This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-glimpse/
-├── public/                  # Static assets
-├── src/
-│   ├── agents/              # AI agent system for code analysis
-│   │   ├── AgentSystem.tsx  # Core agent system implementation
-│   │   └── CodeAnalysisAgent.tsx # Code analysis agent
-│   ├── app/                 # Next.js app directory
-│   │   ├── api/             # API routes
-│   │   │   └── generate/    # Code generation endpoint
-│   │   ├── globals.css      # Global styles
-│   │   ├── layout.tsx       # Root layout component
-│   │   └── page.tsx         # Main application page
-│   ├── components/          # React components
-│   │   ├── ClassicViewer.tsx # HTML/CSS/JS viewer
-│   │   ├── CodeDisplay.tsx  # Code editor and display
-│   │   ├── CodeViewer.tsx   # Generic code viewer
-│   │   ├── LogViewer.tsx    # Log display component
-│   │   ├── P5Viewer.tsx     # P5.js sketch viewer
-│   │   ├── ProgressBar.tsx  # Loading progress indicator
-│   │   └── PromptInput.tsx  # User input form
-│   ├── lib/                 # Utility functions
-│   │   └── logger.ts        # Logging utility
-│   └── services/            # External service integrations
-│       └── aiService.ts     # AI provider integrations
+![image](https://github.com/user-attachments/assets/4692ffb0-5613-4863-b6f8-610e7eef3cfb)
 
 ## 🧠 AI Integration
 Glimpse supports multiple AI providers:
