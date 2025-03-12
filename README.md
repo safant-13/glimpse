@@ -5,6 +5,7 @@
 Glimpse is an interactive web application that allows you to transform your ideas into visual code prototypes quickly. Simply describe what you want to create, and Glimpse will generate and render the code for you in real-time.
 
 Below is an Example of the solution:
+
 https://github.com/user-attachments/assets/3e2053e5-d46d-4ba7-903c-babd735696ef
 
 
